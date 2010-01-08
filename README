@@ -1,0 +1,3 @@
+prereqs:
+  - portaudio (port install portaudio / aptitude install portaudio)
+  - bloopsaphone (gem install bloopsaphone)
