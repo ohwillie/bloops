@@ -38,7 +38,7 @@ loop do
       s.lpf = 0.2
       s.repeat = rand / 100 * 2
       w == Bloops::SQUARE and str = i.last or str = '- ' + i.last
-      break b.tune(s, i.last)
+      break b.tune(s, str)
     end
     m
   end
